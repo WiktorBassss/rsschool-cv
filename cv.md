@@ -16,9 +16,9 @@
 set the right priorities and goals. My workmates have always noticed my activity, diligence, openness, efficiency, creativity. I love to get new knowledge and my new step is IT.
 ---
 ### Skills
-- HTML (Basic)
+- HTML (basic)
 - CSS (basic)
-- JavaScript(Basic)
+- JavaScript(basic)
 - Git
 --- 
 ### Code Example
