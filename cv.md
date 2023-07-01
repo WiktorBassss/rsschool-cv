@@ -7,7 +7,7 @@
 - Location: [Kraków][Krakow], [Poland][Polnd] 
 - Phone number: [+48 571050230]()
 - Email: <victorand@tut.by>
-- Github: [ViktorBassss][Gthb]
+- Github: [WiktorBassss][Gthb]
 - Discord: [WiktorBassss][Dscrd]
 ---
 ### About Me 
@@ -68,5 +68,5 @@ Specialization in the field of attestation: construction manager (foreman) (inst
 [Krakow]: https://www.google.com/maps/place/%D0%9A%D1%80%D0%B0%D0%BA%D0%BE%D0%B2/@50.046649,19.8400619,11z/data=!3m1!4b1!4m6!3m5!1s0x471644c0354e18d1:0xb46bb6b576478abf!8m2!3d50.0646501!4d19.9449799!16zL20vMDQ5MXk?entry=ttu
 [Polnd]: https://www.google.com/maps/place/%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/@51.8421471,13.8520013,6z/data=!3m1!4b1!4m6!3m5!1s0x47009964a4640bbb:0x97573ca49cc55ea!8m2!3d51.919438!4d19.145136!16zL20vMDVxaHc?entry=ttu
 [Foto]: https://lh3.googleusercontent.com/pw/AJFCJaU4e4yZG5TdM7oykcBPtARY4ZGm-TWIqHglyxE54J2_4DZx7e1UyzaLu0rMX6jjmx0H75FWgGa0yFBVKeaq-ST2cg1AZchr316YNLO8XdmLjd9UEzssOT5Kf5gvUqUB-MhEcVeb109sc-jSWXNmGZ4=w70-h70-s-no?authuser=0 
-[Gthb]: https://github.com/WiktorBassss/rsschool-cv/blob/gh-pages/cv.md
+[Gthb]: https://github.com/WiktorBassss/
 [Dscrd]: https://discordapp.com/users/295615239922122763/
