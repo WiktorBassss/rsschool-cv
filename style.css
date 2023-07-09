@@ -116,9 +116,14 @@ h2 {
   margin-bottom: 15px;
 }
 
+.right h4 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
 .right p {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .right u1 li {
