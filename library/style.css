@@ -1,3 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+}
+
+.container {
+  background: blanchedalmond;
+  width: 1440px;
+  margin: 0 auto;
+  /* height: 600px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+/* HEADER */
+
+header {
+  background: rgb(0, 0, 0);
+  width: 1440px;
+  height: 90px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding-top: 20px;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: 314px;
+  height: 50px;
+  color: #fff;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.nav {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+}
+
+.nav-link {
+  padding: 0 0px;
+  line-height: 30px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.nav-link:hover {
+  border: 1px solid white;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav-link {
+  color: #fff;
+  margin: 0 20px;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  height: 30px;
+}
+
+/* MAIN */
+
+main {
+}
+
+.welcome {
+  width: 1440px;
+  height: 600px;
+  background: url(./assets/png/Welcome.png);
+  display: flex;
+  flex-direction: row;
+  z-index: -1;
+  text-align: center;
+  /* -webkit-background-size: cover; */
+  /* background-size: cover; */
+}
+
+.welcome::before {
+  position: absolute;
+  z-index: auto;
+  content: "";
+  display: block;
+  height: 300px;
+  width: 1440px;
+  margin: 0 auto;
+  vertical-align: top;
+  flex-shrink: 0;
+  background: linear-gradient(
+    180deg,
+    #0c0c0e 0%,
+    #0c0c0e 0.01%,
+    rgba(18, 18, 21, 0.1) 100%
+  );
+}
+
+.welcomeSubtittle {
+  position: absolute;
+  z-index: 0;
+  background: #000000;
+  height: 220px;
+  width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  top: 310px;
+}
+
+.welcomeTittle {
+  color: #fff;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: #000;
+  height: 150px;
+  width: 520px;
+}
+
+/* About */
+
+.section {
+  width: 1440px;
+  height: 837px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contNameLink {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nameLink {
+  color: #0c0c0e;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100%*/
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  height: 40px;
+  width: 106px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px auto;
+}
+
+.nameLink::after {
+  height: 1px;
+  width: 50px;
+  background-color: #000000;
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  margin: 20px auto;
+}
+.mainTextAbout {
+  height: 40px;
+  width: 1440px;
+  text-align: center;
+  color: #000000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  margin-top: 61px;
+  margin-bottom: 20px;
+}
+
+/* IMAGES */
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  flex-shrink: 0;
+
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.img1 {
+  margin-left: 20px;
+  margin-right: 25px;
+  width: 450px;
+  height: 560px;
+}
+
+.img2 {
+  width: 450px;
+  height: 560px;
+}
+
+.img3 {
+  margin-left: 25px;
+  margin-right: 20px;
+  width: 450px;
+  height: 560px;
+}
+
+/* buttons */
+
+.buttonsmain {
+  width: 1440px;
+  height: 837px;
+}
+
+footer {
 }
