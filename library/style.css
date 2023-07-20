@@ -231,6 +231,7 @@ main {
 .images {
   display: flex;
   flex-wrap: wrap;
+  background: #fff;
 }
 img {
   flex-shrink: 0;
@@ -258,9 +259,60 @@ img {
 
 /* buttons */
 
-.buttonsmain {
+.buttonscontainer {
   width: 1440px;
-  height: 837px;
+  height: 96px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonsRound {
+  width: 26px;
+  height: 26px;
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonsRound1 {
+  height: 15px;
+  width: 15px;
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background: #bb945f;
+  border: 1px solid #bb945f;
+}
+
+.buttonsRound2 {
+  height: 15px;
+  width: 15px;
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background: #0c0c0e;
+  border: 1px solid #0c0c0e;
+}
+
+.buttonsRound3 {
+  height: 15px;
+  width: 15px;
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background: #0c0c0e;
+  border: 1px solid #0c0c0e;
 }
 
 footer {
