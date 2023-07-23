@@ -584,6 +584,7 @@ input {
   margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
+  margin-left: 20px;
 }
 
 .coffeteaLeft {
@@ -609,8 +610,11 @@ input {
   text-transform: capitalize;
 }
 
-.coffeteaMainContainer {
+.coffeeteaMainContainer {
   display: flex;
+}
+
+.coffeeteaName {
 }
 
 .coffeeteaMainText {
@@ -622,6 +626,13 @@ input {
   line-height: 40px; /* 200% */
   letter-spacing: 2px;
   text-transform: capitalize;
+  height: 40px;
+  width: 200px;
+  margin-top: 40px;
+}
+
+.coffeeteaSpaceBetweenContainer {
+  display: block;
 }
 
 .coffeteaSpaceBetween {
@@ -630,16 +641,41 @@ input {
   background-color: #bb945f;
   content: "";
   display: block;
-  margin-left: 0;
+  margin-left: 60px;
   margin-right: auto;
   flex-shrink: 0;
+  margin-top: 79px;
 }
 
 .coffeeteaPrice {
 }
 
-.coffeeteaName {
+.coffeeteaPriceText {
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  height: 40px;
+  width: 21px;
+  margin-left: 60px;
+  margin-top: 40px;
 }
 
-.dessertscacesMain {
+.dessertscacesMainText {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  height: 40px;
+  width: 212px;
+  text-align: right;
+  margin-top: 40px;
 }
