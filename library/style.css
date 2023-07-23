@@ -72,9 +72,9 @@ header {
   border: 1px solid transparent;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
   border: 1px solid white;
-}
+} */
 
 .nav-list {
   display: flex;
@@ -202,7 +202,7 @@ main {
   width: 106px;
   display: flex;
   flex-wrap: wrap;
-
+  white-space: nowrap;
   align-items: center;
   justify-content: center;
 }
@@ -325,7 +325,8 @@ img {
 
 .mainTextFavorites {
   color: #000;
-
+  height: 24px;
+  width: 234px;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -336,5 +337,309 @@ img {
   margin-bottom: 40px;
 }
 
-footer {
+/* Buttons */
+
+.favoritesButtonsAndText {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.radioWrapper {
+  height: 24px;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.radioContainerWinter {
+  margin-left: 20px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radioContainerOther {
+  margin-left: 90px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  justify-content: center;
+  accent-color: black;
+  height: 17px;
+  width: 17px;
+  padding: 0;
+  margin: auto;
+}
+
+.buttonsTextWinter {
+  margin-left: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 24px;
+  width: 67px;
+}
+
+.buttonsTextSpring {
+  margin-left: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 24px;
+  width: 62px;
+}
+
+.buttonsTextSummer {
+  margin-left: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 24px;
+  width: 79px;
+}
+
+.buttonsTextAutumn {
+  margin-left: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 24px;
+  width: 74px;
+}
+
+/* Staff picks */
+.staffPicsMainContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.staffPicsContainerBookLeft {
+  height: 555px;
+  width: 550px;
+  border: 1px solid #000;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.staffPicsContainerBookRight {
+  height: 555px;
+  width: 550px;
+  border: 1px solid #000;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  margin-left: 260px;
+}
+
+.leftSideStaffPicks {
+}
+
+.rightSideStaffPicks {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+}
+
+.titleTextContainer {
+  height: 40px;
+  width: 104px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.titleText {
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.titleText::after {
+  height: 1px;
+  width: 60px;
+  background-color: #bb945f;
+  content: "";
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  flex-shrink: 0;
+}
+
+.fatTextContainer {
+  height: 80px;
+  width: 170px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.theText {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.byText {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.mainTextcontainer {
+  height: 320px;
+  width: 355px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.mainText {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.btnStaffPics {
+  height: 30px;
+  width: 75px;
+  margin-left: 20px;
+  margin-top: 15px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.froospase40 {
+  margin-bottom: 40px;
+}
+
+/* Coffee and tea */
+
+.mainTextCoffeetea {
+  height: 120px;
+  width: 1440px;
+  text-align: center;
+  color: #000000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  margin-top: 61px;
+}
+
+.coffeteaContainer {
+  height: 100%;
+  width: 1440px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.coffeteaLeft {
+  height: 520px;
+  width: 438px;
+  margin: 0;
+}
+
+.coffeteaRight {
+  height: 520px;
+  width: 482px;
+  margin-left: 480px;
+}
+
+.coffeeteatext {
+  color: #bb945f;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.coffeteaMainContainer {
+  display: flex;
+}
+
+.coffeeteaMainText {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.coffeteaSpaceBetween {
+  height: 1px;
+  width: 100px;
+  background-color: #bb945f;
+  content: "";
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  flex-shrink: 0;
+}
+
+.coffeeteaPrice {
+}
+
+.coffeeteaName {
+}
+
+.dessertscacesMain {
 }
