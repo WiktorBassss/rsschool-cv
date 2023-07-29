@@ -747,10 +747,9 @@ input {
 /* Library card */
 
 .libraryCardContainer {
-  height: 534px;
+  height: 493px;
   width: 1400px;
   margin-top: 61px;
-  margin-bottom: 40px;
   display: flex;
   margin-left: 20px;
   margin-right: 20px;
@@ -886,10 +885,12 @@ input {
 }
 
 .readerCardButtonContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
 }
 
 .readerCardButton {
-  display: flex;
   width: 75px;
   height: 30px;
   padding: 10px 0px;
@@ -907,4 +908,128 @@ input {
   line-height: normal;
   letter-spacing: 1px;
   background: #fff;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* Footer */
+
+.footer {
+  width: 1440px;
+  height: 250px;
+  background: #0c0c0e;
+}
+
+.footerAdresData {
+  display: flex;
+  width: 1400px;
+  height: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1022px;
+  flex-shrink: 0;
+  margin: 0 20px 20px 20px;
+}
+
+.footerAdres {
+  width: 229px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+}
+
+.footerData {
+  color: #fff;
+  text-align: right;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+}
+
+.footerImagesData {
+  display: flex;
+  width: 1400px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 1147px;
+  margin: 20px;
+}
+
+.footerImagesSVG {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.footerLine {
+  width: 1400px;
+  height: 1px;
+  background: #fff;
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  margin: 20px auto;
+}
+
+.footerYearName {
+  width: 1400px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  margin: 20px;
+}
+
+.footerYear {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 100% */
+  letter-spacing: 2px;
+}
+
+.footerRsschool {
+  display: flex;
+  width: 300px;
+  height: 22px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 100% */
+  letter-spacing: 2px;
+}
+
+.footerName {
+  display: flex;
+  width: auto;
+  height: 22px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
 }
