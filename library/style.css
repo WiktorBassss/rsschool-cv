@@ -335,6 +335,7 @@ img {
   margin-top: 61px;
   margin-left: 20px;
   margin-bottom: 40px;
+  text-align: left;
 }
 
 /* Buttons */
@@ -678,4 +679,232 @@ input {
   width: 212px;
   text-align: right;
   margin-top: 40px;
+}
+
+/* Contacts */
+
+.contactsContainer {
+  height: 414px;
+  width: 1400px;
+  margin-top: 61px;
+  margin-bottom: 40px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 201px;
+}
+
+.contactsInfo {
+  text-align: left;
+}
+
+.contactsText {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: left;
+  width: auto;
+  white-space: nowrap;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.mainTextCotacts {
+  color: #000;
+  height: 24px;
+  width: 234px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+  text-align: left;
+  height: 40px;
+}
+
+.mainTextStaff {
+  color: #000;
+  height: 24px;
+  width: 234px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 60px;
+  text-align: left;
+}
+
+/* Library card */
+
+.libraryCardContainer {
+  height: 534px;
+  width: 1400px;
+  margin-top: 61px;
+  margin-bottom: 40px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 344px;
+}
+
+.findCard {
+  height: 452px;
+  width: 600px;
+}
+
+.findYourCard {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.libraryCardCont {
+  width: 600px;
+  height: 380px;
+  flex-shrink: 0;
+  border: 3px solid #bb945f;
+  background: #fff;
+}
+
+.libraryCardEnter {
+  width: 560px;
+  height: 272px;
+  flex-shrink: 0;
+  background: #bb945f;
+  margin: 17px;
+}
+
+.brooklynLibrary {
+  color: #000;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  padding: 20px;
+}
+
+.libraryCardFirstEnter {
+  width: 520px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+.libraryCardInput {
+  color: #8e8e8e;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 8px;
+  outline: none;
+}
+
+.checkTheCard {
+  width: 242px;
+  height: 44px;
+  display: inline-flex;
+  margin-left: 179px;
+  align-items: flex-end;
+  border-radius: 2px;
+  border: 1px solid #0c0c0e;
+}
+
+.checkTheCardText {
+  width: 162px;
+  height: 24px;
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  margin-left: 40px;
+  margin-bottom: 9px;
+}
+
+.readCardContainer {
+  width: 456px;
+  height: 253px;
+}
+
+.readerCard {
+  color: #000;
+  text-align: center;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.readerCardText {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  margin-top: 35px;
+}
+
+.readerCardButtonContainer {
+}
+
+.readerCardButton {
+  display: flex;
+  width: 75px;
+  height: 30px;
+  padding: 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #0c0c0e;
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  background: #fff;
 }
