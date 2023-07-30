@@ -99,10 +99,15 @@ header {
   }
 }
 
+.navCont {
+  display: flex;
+}
+
 .nav {
   font-family: Inter;
   font-size: 10px;
   font-style: normal;
+  wh
 }
 
 @media only screen and (max-width: 768px) {
@@ -119,11 +124,12 @@ header {
   transition: 0.3s;
   cursor: pointer;
   border: 1px solid transparent;
+  
 }
 
-/* .nav-link:hover {
+.nav-link:hover {
   border: 1px solid white;
-} */
+}
 
 .nav-list {
   display: flex;
@@ -133,6 +139,13 @@ header {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
 }
 
 .nav-item {
@@ -150,16 +163,32 @@ header {
 }
 
 .headerSVGContainer {
+  display: flex;
+}
+
+.headerMinSVG2 {
   display: none;
 }
 
 @media only screen and (max-width: 768px) {
-  .headerSVGContainer {
+  .headerMinSVG2 {
     display: block;
+    margin-left: 40px;
+    margin-right: 10px;
   }
 }
-.headerMinSVG2 {
-  margin-left: 40px;
+
+.headerMinSVG {
+  background: #000;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerMinSVG {
+   margin: 0;
+  }
 }
 
 /* MAIN */
@@ -183,7 +212,7 @@ main {
   .welcome {
     width: 768px;
     height: 600px;
-    background: url(./assets/png/Welcome\ mini.png);
+    background: url(./assets/png/Welcome_mini.png);
   }
 }
 
@@ -251,6 +280,12 @@ main {
   justify-content: center;
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    width: 768px;
+  }
 }
 
 .contNameLink {
@@ -640,6 +675,7 @@ input {
   line-height: 40px; /* 266.667% */
   letter-spacing: 2px;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .byText {
@@ -651,6 +687,7 @@ input {
   line-height: 40px;
   letter-spacing: 2px;
   text-transform: capitalize;
+  white-space: nowrap;
 }
 
 .mainTextcontainer {
@@ -686,6 +723,13 @@ input {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1px;
+}
+
+.btnStaffPics:hover {
+  border-radius: 2px;
+border: 1px solid #BB945F;
+background: #BB945F;
+cursor: pointer;
 }
 
 .froospase40 {
@@ -917,6 +961,24 @@ input {
   height: 40px;
 }
 
+.contactsTelephone {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: left;
+  width: auto;
+  white-space: nowrap;
+  margin-top: 20px;
+  height: 40px;
+  text-decoration: none;
+}
+
 .mainTextCotacts {
   color: #000;
   height: 24px;
@@ -1054,9 +1116,16 @@ input {
   border: 1px solid #0c0c0e;
 }
 
+.checkTheCard:hover {
+  border-radius: 2px;
+border: 1px solid #BB945F;
+background: #BB945F;
+cursor: pointer;
+}
+
 .checkTheCardText {
-  width: 162px;
-  height: 24px;
+  width: auto;
+  height: auto;
   color: #0c0c0e;
   text-align: center;
   font-family: Inter;
@@ -1068,6 +1137,15 @@ input {
   white-space: nowrap;
   margin-left: 40px;
   margin-bottom: 9px;
+  border: 0;
+  background: #fff;
+}
+
+.checkTheCardText:hover {
+  
+border: 1px solid #BB945F;
+background: #BB945F;
+cursor: pointer;
 }
 
 .readCardContainer {
@@ -1105,6 +1183,8 @@ input {
   white-space: nowrap;
   margin-top: 35px;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   .readerCardText {
@@ -1144,6 +1224,22 @@ input {
   }
 }
 
+.sectionLogIn {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionLogIn {
+    width: 768px;
+    justify-content: center;
+  }
+}
+
 .readerCardButton {
   width: 75px;
   height: 30px;
@@ -1164,6 +1260,13 @@ input {
   background: #fff;
   margin-left: 20px;
   margin-top: 15px;
+}
+
+.readerCardButton:hover {
+  border-radius: 2px;
+border: 1px solid #BB945F;
+background: #BB945F;
+cursor: pointer;
 }
 
 /* Footer */
@@ -1208,6 +1311,8 @@ input {
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 133.333% */
+  text-decoration: none;
+  margin-top: 15px;
 }
 
 .footerData {
@@ -1228,9 +1333,11 @@ input {
   width: 1400px;
   height: 40px;
   justify-content: center;
-  align-items: center;
-  gap: 1147px;
+    align-items: flex-start;
+  gap: 1140px;
   margin: 20px;
+  flex-shrink: 0;
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -1250,6 +1357,8 @@ input {
 
 .footerImages {
   display: flex;
+  padding: 0;
+  
 }
 
 .footerLine {
@@ -1313,6 +1422,8 @@ input {
   font-weight: 400;
   line-height: 20px; /* 100% */
   letter-spacing: 2px;
+  text-decoration: none;
+  margin-top: 20px;
 }
 
 .footerName {
@@ -1330,4 +1441,12 @@ input {
   font-weight: 400;
   line-height: 40px; /* 200% */
   letter-spacing: 2px;
+  text-decoration: none;
+  margin-top: 20px;
+  
+
+@media only screen and (max-width: 768px) { .footerName {
+  margin-right: 40px;
+}
+}
 }
