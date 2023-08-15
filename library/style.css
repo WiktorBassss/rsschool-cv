@@ -831,7 +831,7 @@ input {
   text-transform: capitalize;
 }
 
-.btnStaffPics {
+.btnStaffPics, .btnStaffPicsOwn {
   height: 30px;
   width: 75px;
   margin-left: 20px;
@@ -846,6 +846,11 @@ input {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1px;
+}
+
+.btnStaffPicsOwn {
+  color: #BB945F;
+  border: 1px solid #BB945F;
 }
 
 .btnStaffPics:hover {
