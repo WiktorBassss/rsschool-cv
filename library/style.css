@@ -496,8 +496,15 @@ img {
 }
 @media only screen and (max-width: 768px) {
   .imagesLR {
-    display: block;
+    display: flex;
+    background: #fff;
   }
+}
+
+.imgLeft {
+  background: #fff;
+  margin-top: 268px;
+  margin-right: 38px;
 }
 /* buttons */
 
