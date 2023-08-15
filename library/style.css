@@ -95,7 +95,7 @@ header {
     letter-spacing: 0.6px;
     text-align: left;
     white-space: nowrap;
-    padding: 0;
+    padding: 0 0 0 20px;
   }
 }
 
@@ -1201,6 +1201,8 @@ cursor: pointer;
   letter-spacing: 0.6px;
   padding: 20px;
 }
+
+
 
 .libraryCardFirstEnter {
   width: 520px;
