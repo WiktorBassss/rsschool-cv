@@ -197,6 +197,13 @@ header {
   list-style: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .bnav-item {
+    padding: 30px 0 30px 0;
+  }
+}
+
+
 .bnav-link {
   color: #fff;
   text-decoration: none;
@@ -263,7 +270,7 @@ header {
 
   .bnav-menu {
     position: fixed;
-    left: -100%;
+    right: -100%;
     top: 70px;
     gap: 0;
     flex-direction: column;
@@ -274,11 +281,15 @@ header {
   }
 
   .bnav-item {
-    margin: 10px 0;
+    margin:  0;
   }
 
   .bnav-menu.active {
-    left: 0;
+    right: 0;
+    width: 332px;
+    height: 570px;
+    margin: 18px 40px 0 0;
+    padding: 0 ;
   }
 }
 
